@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
+  </head>
+  <body>
+    <div class="div1 d-flex flex-row-reverse row p-2">
+      <a href="#" class="btn col- d-flex justify-content-center mx-2">login</a>
+      <a href="#" class="btn col- d-flex justify-content-center mx-2"
+        >sign in</a
+      >
+    </div>
+    <div class="container bg-dark">
+      <div class="allTheForm">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./login-image.svg" alt="img" srcset="" />
+          </div>
+          <div class="col-md-6">
+            <div class="form-group pt-3">
+              <h1>please login</h1>
+            </div>
+            <div class="inputs">
+              <form action="" >
+                <div class="form-group">
+                  <label for="email">Email :</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    placeholder="entre email here"
+                    required
+                    id="inp1"
+                    name="inp1"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="pwd">password</label>
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    placeholder="entre password here"
+                    required
+                    id="inp2"
+                    name="inp1"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+                <label for="remember">
+                  <input type="checkbox" class="form-check-label" /> remember me </label
+                ><br />
+                <button type="submit" class="btn btn-warning" onclick= isEmpty>submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap.min.js">
+        const inp1 = document.getElementById('inp1');
+        const inp2 = document.getElementById('inp2');
+        function isEmpty() {
+            if (document.form.inp1.value == '') {
+                console.log('eeeeeeee');
+                inp1.setAttribute('inp1', 'form-control is-invalid');
+            }
+        }
+    </script>
+  </body>
 </html>

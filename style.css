@@ -1,0 +1,28 @@
+body {
+  background-image: url(./backroynd-image.svg);
+  background-color: #fcaf3c;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div1 :hover {
+  border: 2px solid yellow;
+}
+@media only screen and (max-width: 1300px) {
+  body {
+    background-image: url(./backroynd-image-sm.svg);
+    background-color: #fcaf3c;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.inputs {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+}
+.allTheForm {
+  margin-top: 100px;
+}
