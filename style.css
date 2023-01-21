@@ -1,17 +1,17 @@
 @media only screen and (max-width: 2000px) {
-body {
-  background-image: url(/pictures/background-image.svg);
-  background-color: #fcaf3c;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0px;
+  body {
+    background-image: url(/pictures/background-image.svg);
+    background-color: #fcaf3c;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+  }
+  .imgContainer {
+    border-right: 5px solid #001220;
+  }
 }
-.imgContainer{
-  border-right: 5px solid #001220;
-}
-}
-.div1{
+.div1 {
   margin-right: 2px;
 }
 
@@ -28,16 +28,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .imgContainer{
+  .imgContainer {
     border-right: 5px solid rgb(255, 179, 0);
   }
 }
 
-.title{
+.title {
   color: rgb(255, 183, 0);
   font-family: Arial, Helvetica, sans-serif;
 }
-.title-inp{
+.title-inp {
   color: rgb(148, 200, 255);
 }
 .inputs {
@@ -47,13 +47,12 @@ body {
 }
 .allTheForm {
   margin-top: 50px;
-  
 }
-.container1{
+.container1 {
   border-radius: 30px;
   box-shadow: 30px 40px 50px rgb(9, 10, 41);
 }
-.picContainer1{
+.picContainer1 {
   margin-right: 3rem;
   margin-top: 4rem;
 }

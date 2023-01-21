@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div1 d-flex flex-row-reverse row ">
+      <a href="./index.html" class="btn col- d-flex justify-content-center mx-2">login</a>
+      <a href="#" class="btn col- d-flex justify-content-center mx-2"
+        >sign in</a
+      >
+    </div>
+    <div class="container container1 bg-dark">
+      <div class="allTheForm">
+        <div class="row no-gutters ">
+          <div class="col-sm-6  imgContainer ">
+            <img src="/pictures/login-image.svg" alt="img" srcset="" class="picContainer1 img-fluid text-center"/>
+          </div>
+          <div class="col-sm-6 pl-3">
+            <div class="form-group pt-3">
+              <h1 class="title">please login</h1>
+            </div>
+            <div class="inputs">
+              <form action="" >
+                <div class="form-group">
+                  <label for="name" class="title-inp">Full Name :</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    placeholder="entre full name here"
+                    required
+                    name="inp1"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                <div class="form-group">
+                  <label for="email" class="title-inp">Email :</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    placeholder="entre email here"
+                    required
+                    name="inp2"
+                  />
+                  
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="pwd" class="title-inp">password</label>
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    placeholder="entre password here"
+                    required
+                    name="inp1"
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="pwd" class="title-inp">confirm password</label>
+                    <input
+                      type="text"
+                      class="form-control is-invalid"
+                      placeholder="re entre password here"
+                      required
+                      name="inp1"
+                    />
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">
+                      Please fill out this field.
+                    </div>
+                  </div>
+                <label for="remember" class="title-inp">
+                  <input type="checkbox" class="form-check-label" /> remember me </label
+                ><br />
+                <button type="submit" class="btn btn-warning" onclick= isEmpty>submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap.min.js">
+       
+    </script>
+  </body>
+</html>
