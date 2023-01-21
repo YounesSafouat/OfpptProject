@@ -9,26 +9,26 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="div1 d-flex flex-row-reverse row p-2">
+    <div class="div1 d-flex flex-row-reverse row ">
       <a href="#" class="btn col- d-flex justify-content-center mx-2">login</a>
       <a href="#" class="btn col- d-flex justify-content-center mx-2"
         >sign in</a
       >
     </div>
-    <div class="container bg-dark">
+    <div class="container container1 bg-dark">
       <div class="allTheForm">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="./login-image.svg" alt="img" srcset="" />
+        <div class="row no-gutters ">
+          <div class="col-sm-6  imgContainer">
+            <img src="/pictures/login-image.svg" alt="img" srcset="" class="picContainer1 img-fluid"/>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 pl-3">
             <div class="form-group pt-3">
-              <h1>please login</h1>
+              <h1 class="title">please login</h1>
             </div>
             <div class="inputs">
               <form action="" >
                 <div class="form-group">
-                  <label for="email">Email :</label>
+                  <label for="email" class="title-inp">Email :</label>
                   <input
                     type="text"
                     class="form-control is-valid"
@@ -43,7 +43,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="pwd">password</label>
+                  <label for="pwd" class="title-inp">password</label>
                   <input
                     type="text"
                     class="form-control is-invalid"
@@ -57,7 +57,7 @@
                     Please fill out this field.
                   </div>
                 </div>
-                <label for="remember">
+                <label for="remember" class="title-inp">
                   <input type="checkbox" class="form-check-label" /> remember me </label
                 ><br />
                 <button type="submit" class="btn btn-warning" onclick= isEmpty>submit</button>
