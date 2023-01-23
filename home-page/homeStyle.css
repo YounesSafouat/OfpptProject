@@ -1,0 +1,74 @@
+body {
+    background-color: #001220;
+  }
+  
+  .smallCard {
+    background-color: #001220;
+    border: white solid 2px;
+    margin-bottom: 1rem;
+  }
+  .main {
+    padding: 16px;
+    margin-top: 70px;
+  }
+  
+  .bigCard {
+    background-color: rgb(148, 200, 255);
+    margin-top: 2rem;
+  }
+  .cardLogo {
+    margin-right: 10px;
+  }
+  .col {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 {
+    background-image: url(/pictures/back.svg);
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    height: 1000px;
+  }
+  .card1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .container1 {
+      background-image: url(/pictures/back-sm.svg);
+      margin-top: 80px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1000px
+    }
+    .card1 {
+      margin-top: 26.5rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+      .container1 {
+        background-image: url(/pictures/back-sm-1.svg);
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1200px
+      }
+      .card1 {
+        margin-top: 31.5rem;
+      }
+    }
+  @media only screen and (max-width: 490px) {
+    .container1 {
+      background-image: url(/pictures/back-sm.svg);
+      margin-top: 80px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1200px;
+      
+    }
+    .card1 {
+      margin-top: 26rem;
+    }
+  }
+  
