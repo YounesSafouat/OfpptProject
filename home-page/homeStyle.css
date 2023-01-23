@@ -1,0 +1,127 @@
+body {
+    background-color: #001220;
+  }
+  
+  .smallCard {
+    background-color: #001220;
+    border: rgb(68, 53, 53) solid 2px;
+    margin-bottom: 1rem;
+  }
+  .main {
+    padding: 16px;
+    margin-top: 70px;
+  }
+  
+  .bigCard {
+    background-color: rgb(148, 200, 255);
+    margin-top: 2rem;
+    
+  }
+  .cardLogo {
+    margin-right: 10px;
+  }
+  .col {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 4000px) {
+    .container1 {
+      background-image: url(/pictures/back.svg);
+      margin-top: 80px;
+      background-repeat: no-repeat;
+      height: 700px;
+      border-bottom: whitesmoke solid 0.125rem;
+    }
+    .button{
+      padding-top: 3rem;
+    }
+   
+  
+    .card1 {
+      margin-left: 2rem;
+      margin-top: 2rem;
+      
+     
+    }}
+  @media only screen and (max-width: 2000px) {
+  .container1 {
+    background-image: url(/pictures/back.svg);
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: whitesmoke solid 0.125rem;
+    
+  }
+  .button{
+    padding-top: 3rem;
+  }
+ 
+
+  .card1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 29rem;
+   
+  }}
+  @media only screen and (max-width: 600px) {
+    .container1 {
+      background-image: url(/pictures/back-sm.svg);
+      margin-top: 80px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1000px;
+      width: 100%;
+    }
+    .card1 {
+      margin-top: 26.5rem;
+      width: 30rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+      .container1 {
+        background-image: url(/pictures/back-sm-1.svg);
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px
+      }
+      .card1 {
+        margin-top: 31.5rem;
+        width: 30rem;
+      }
+    }
+  @media only screen and (max-width: 490px) {
+    .container1 {
+      background-image: url(/pictures/back-sm.svg);
+      margin-top: 80px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1100px;
+      
+      
+    }
+    .btn1{
+        margin-left: -1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    .card1 {
+      margin-top: 26rem;
+      width: 20rem;
+    }
+  }
+  .main{
+    margin-bottom: 2rem;
+    border-bottom: #fcaf3c solid 2px;
+  }
+  .card-profile{
+    background-color: #402083;
+  }
+  .img-profile{
+    margin-top: 1rem;
+    border: wheat solid 2px;
+  }
+  .profile-text{
+    color: wheat;
+  }
